@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#faae19"
+    tools:context="com.emdad.mankenaretam.Peigiri">
+
+
+    <ImageView
+        android:id="@+id/imageViewc"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/b"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewc"
+        tools:layout_editor_absoluteX="316dp" />
+
+    <TextView
+        android:id="@+id/textViewc"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="serif-monospace"
+        android:text="پیگیری درخواست فرستاده شده"
+        android:textAlignment="center"
+        android:textColor="#860d0d"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+
+    <TextView
+        android:id="@+id/textView2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="همراه گرامی , با سپاس و اطلاع رسانی شما,لطفا جهت کسب اطلاع از پیگیری امدادرسانی,کد زیر را ارسال کنید."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewc" />
+
+    <Button
+        android:id="@+id/etelaatc"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/shadow2"
+        android:text="معرفی به دوستان"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toRightOf="@+id/sharc"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/peigiric"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/shadow2"
+        android:text="ارتباط با ما"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/sharc" />
+
+    <Button
+        android:id="@+id/sharc"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/shadow2"
+        android:text="پیگیری"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutc"
+
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:background="#262525"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:radius="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/sharc"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2c"
+        app:layout_constraintVertical_bias="0.483"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffffff">
+
+                <EditText
+
+                    android:id="@+id/peigiricodc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="#ffffff"
+                    android:hint="کد پیگیری"
+                    android:singleLine="true"
+                    android:textColor="#ffffff" />
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+    <!--</ScrollView>-->

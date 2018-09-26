@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="radio_button_spacer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+
+    <style name="radio_button_transport">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Button1Style" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#FFCCBC</item>
+        <item name="colorButtonNormal">#FF5722</item>
+    </style>
+
+    <style name="radio_button_spacer2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="Button2Style" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#E0F2F1</item>
+        <item name="colorButtonNormal">#009688</item>
+    </style>
+
+    <style name="Button3Style" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">#E91E63</item>
+        <item name="colorControlHighlight">#FCE4EC</item>
+    </style>
+
+    <style name="MyButton" parent="android:Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="MyButton.Green">
+        <item name="android:background">#8f64e83e</item>
+    </style>
+
+    <style name="MyButton.Orange">
+        <item name="android:background">#8ff6fb85</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="SpecialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#555</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
+</resources>
+
+
+
+

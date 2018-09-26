@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e39e16"
+    android:orientation="vertical"
+
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+
+    tools:context="com.emdad.mankenaretam.Register">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:background="#262525"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:radius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffffff">
+
+                <EditText
+
+                    android:id="@+id/name2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableTint="#ffffff"
+                    android:hint="کد امنیتی"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#ffffff" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/Login2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@drawable/shadow"
+                android:text="ورود"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
